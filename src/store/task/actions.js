@@ -11,7 +11,7 @@ export function titleChanged(id) {
   };
 }
 
-export function titleDeleted(id) {
+export function taskDeleted(id) {
   return {
     type: actionTypes.taskDeleted,
     payload: { id },
